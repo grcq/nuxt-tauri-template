@@ -2,6 +2,7 @@
 const srcDir = 'src/'
 export default defineNuxtConfig({
     srcDir,
+    ssr: false,
     devtools: { enabled: true },
     modules: ["@nuxt/ui", "@nuxtjs/tailwindcss"],
     css: [
